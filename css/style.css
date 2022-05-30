@@ -76,7 +76,7 @@ main{
 
 /* Main */
 
-
+/* SECOND SECTION */
 #second{
     background-color: #9792e4;
 }
@@ -86,9 +86,24 @@ main{
     border: 5px solid black;
 }
 
+/* THIRD SECTION */
 
 #third .col{
     background-color: #9792e4;
+}
+
+/* FOURTH SECTION */
+
+#fourth{
+    background-color: #9792e4;
+}
+
+#fourth .row{
+    flex-direction: row;
+}
+
+#fourth .col{
+    background-color: white;
 }
 
 
@@ -113,6 +128,10 @@ main{
     .col.w-33{
         width: calc(100% / 3 - 30px)
     }
+
+    #fourth .col{
+        width: calc(100% / 2 - 30px);
+    }
 }
 
 
@@ -130,5 +149,9 @@ main{
 
     #second .col{
         width: calc(100% / 2 - 30px)
+    }
+
+    #fourth .col{
+        width: calc(100% / 3 - 30px);
     }
 }
