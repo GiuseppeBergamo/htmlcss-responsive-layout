@@ -45,6 +45,7 @@ main{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    margin-bottom: 50px;
 
 }
 
@@ -73,6 +74,17 @@ main{
 }
 
 
+/* Main */
+
+
+#second{
+    background-color: #9792e4;
+}
+
+#second .col{
+    background-color: white;
+    border: 5px solid black;
+}
 
 
 
@@ -107,5 +119,13 @@ main{
 @media screen and (min-width: 1200px) {
     .container{
         padding: 0 200px;
+    }
+
+    #second .row{
+        flex-direction: row;
+    }
+
+    #second .col{
+        width: calc(100% / 2 - 30px)
     }
 }
