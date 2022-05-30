@@ -87,6 +87,10 @@ main{
 }
 
 
+#third .col{
+    background-color: #9792e4;
+}
+
 
 /* TABLET */
 
@@ -94,7 +98,6 @@ main{
 
     .row{
         flex-direction: row;
-        justify-content: space-between;
         margin: 0 -15px;
     }
 
