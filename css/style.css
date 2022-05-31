@@ -59,10 +59,28 @@ a{
 
 .col{
     background-color: #b5ddff;
-    min-height: 400px;
+    min-height: 200px;
     width: 100%;
     margin-bottom: 25px;
     border-radius: 30px;
+    padding: 20px;
+    
+}
+
+.card{
+    display: flex;
+}
+
+.bg-blue{
+    background-color: #b5ddff;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+
+.dir-column{
+    flex-direction: column;
 }
 
 
@@ -106,6 +124,65 @@ a{
 }
 
 /* Main */
+
+
+/* FIRST SECTION DEMO */
+
+
+/* FIRST SECTION COLUMNS */
+
+#demo h2{
+    color: #0084fd;
+    font-size: 34px;
+}
+
+
+#demo p{
+    color: #9792e4;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.col.w-67{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.col.w-67 img{
+    width: 100%;
+    display: block;
+}
+
+#demo .button-link{
+    background-color: #0084fd;
+    color: white;
+    display: inline-block;
+    width: 50%;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.text-content{
+    padding-bottom: 20px;
+}
+
+.phone{
+    align-self: flex-end;
+}
+
+.col.w-33{
+    text-align: center;
+}
+
+.col.w-33 i{
+    color: #0084fd;
+    font-size: 60px;
+}
+
+
 
 /* SECOND SECTION STRATEGIC PLANNING*/
 #strategic-planning{
@@ -189,6 +266,20 @@ a{
     .container{
         padding: 0 200px;
     }
+
+    .bigcard{
+        flex-direction: row;
+    }
+
+    .text-content{
+        width: 60%;
+    }
+
+    .phone{
+        width: 40%;
+
+    }
+
 
     #strategic-planning .row{
         flex-direction: row;
