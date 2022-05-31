@@ -22,6 +22,11 @@ footer{
     background-color: #333;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 /* Utilities */
 
 
@@ -67,15 +72,38 @@ footer{
 .logo{
     width: 20%;
     min-height: 25px;
-    background-color: blueviolet;
+}
+
+.logo img{
+    display: block;
+}
+
+.nav-drop-down{
+    color: white;
+    font-size: 25px;
+    text-align: right;
 }
 
 .nav-drop-down{
     width: 20%;
     min-height: 25px;
-    background-color: blueviolet;
 }
 
+.linklist{
+    display: none;
+}
+
+.linklist a{
+    margin-left: 15px;
+}
+
+.button-link{
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
 
 /* Main */
 
@@ -157,7 +185,7 @@ footer{
 /* DESKTOP */
 
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 920px) {
     .container{
         padding: 0 200px;
     }
@@ -172,5 +200,13 @@ footer{
 
     #benefits .col{
         width: calc(100% / 3 - 30px);
+    }
+
+    .linklist{
+        display: block;
+    }
+
+    .nav-drop-down{
+        display: none;
     }
 }
