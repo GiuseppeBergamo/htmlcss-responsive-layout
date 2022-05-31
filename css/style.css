@@ -18,6 +18,9 @@ main{
     padding-top: 100px;
 }
 
+footer{
+    background-color: #333;
+}
 
 /* Utilities */
 
@@ -76,35 +79,49 @@ main{
 
 /* Main */
 
-/* SECOND SECTION */
-#second{
+/* SECOND SECTION STRATEGIC PLANNING*/
+#strategic-planning{
     background-color: #9792e4;
 }
 
-#second .col{
+#strategic-planning .col{
     background-color: white;
     border: 5px solid black;
 }
 
-/* THIRD SECTION */
+/* THIRD SECTION TESTIMONIAL*/
 
-#third .col{
+#testimonial .col{
     background-color: #9792e4;
 }
 
-/* FOURTH SECTION */
+/* FOURTH SECTION  BENEFITS*/
 
-#fourth{
+#benefits{
     background-color: #9792e4;
 }
 
-#fourth .row{
+#benefits .row{
     flex-direction: row;
 }
 
-#fourth .col{
+#benefits .col{
     background-color: white;
 }
+
+
+
+/* SIXTH SECTION GET STARTED */
+
+#get-started{
+    background-color: #9792e4;
+}
+
+#get-started .col{
+    background-color: white;
+}
+
+
 
 
 /* TABLET */
@@ -121,17 +138,19 @@ main{
         margin-bottom: 30px;
     }
 
-    .col.w-67{
+    .w-67{
         width: calc(100% / 3 * 2 - 30px)
     }
 
-    .col.w-33{
+    .w-33{
         width: calc(100% / 3 - 30px)
     }
 
-    #fourth .col{
+    #benefits .col{
         width: calc(100% / 2 - 30px);
     }
+
+    
 }
 
 
@@ -143,15 +162,15 @@ main{
         padding: 0 200px;
     }
 
-    #second .row{
+    #strategic-planning .row{
         flex-direction: row;
     }
 
-    #second .col{
+    #strategic-planning .col{
         width: calc(100% / 2 - 30px)
     }
 
-    #fourth .col{
+    #benefits .col{
         width: calc(100% / 3 - 30px);
     }
 }
